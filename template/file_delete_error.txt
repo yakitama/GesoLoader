@@ -1,0 +1,4 @@
+<p>
+	<a href="##MYSELF_FILENAME##">アップローダーに戻る</a>
+</p>
+

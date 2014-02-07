@@ -1,0 +1,19 @@
+<p class="title">
+	コメント欄に URL を記入すると、「LINK」に短縮されます。転載元の記載などに。
+</p>
+
+##FILE_UPLOAD##
+
+<hr />
+
+##PAGE_LIST##
+
+<div class="file_list">
+##FILE_LIST##
+</div>
+
+<div style="height:1px; clear:left"></div>
+
+##PAGE_LIST##
+
+<p class="foot">ふったーだし。</p>

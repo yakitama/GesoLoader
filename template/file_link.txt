@@ -1,0 +1,13 @@
+<div class="file_link">
+	<div class="ext_img">
+		<p class="ext_img">##EXT_IMG##</p>
+	</div>
+	<div class="file_name">
+		<p class="file_name">##FILE_NAME## - 
+		<span class="file_comment">##COMMENT##</span></p>
+	</div>
+	<div class="upload_time">
+		<p class="upload_time">##UPLOAD_TIME##</p>
+	</div>
+	<div style="height:1px; clear:left"></div>
+</div>

@@ -1,0 +1,7 @@
+<div class="file_link2 cf">
+		<div class="image">##EXT_IMG##</div>
+		<div class="file_name">##FILE_NAME## ##DEL_LINK##</div>
+		<div class="file_comment2">##COMMENT##</div>
+		<div class="upload_time2">##UPLOAD_TIME##</div>
+</div>
+

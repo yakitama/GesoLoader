@@ -1,0 +1,13 @@
+<div>
+<p>##FILE_NAME## を削除します。</p>
+</div>
+
+<form action="##MYSELF_FILENAME##?number=##FILE_NUMBER##" method="POST">
+	削除パス: <input type="password" name="delete" />
+	<input type="hidden" name="cmd" value="delfile" />
+	<input type="submit" value="削除" />
+</form>
+
+<div>
+<p><a href="##MYSELF_FILENAME##">アップローダーに戻る</a></p>
+</div>

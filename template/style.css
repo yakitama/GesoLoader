@@ -1,0 +1,156 @@
+body {
+	font-size : 11pt;
+	font-family: "Roboto", sans-serif;
+	font-weight : 400;
+	color : #080808;
+}
+
+h1 {
+	font-size : 24pt;
+	background-color : #a0a0ff;
+	font-weight : 100;
+}
+
+div.up_form {
+	line-height: 120%;
+}
+
+div.file_link {
+	
+}
+
+div.ext_img {
+	background-color : #ccffff;
+	margin-left: auto;
+	margin-right: auto;
+	text-align:center; 
+	float: left;
+	width: 150px;
+	height: 100%;
+}
+
+div.file_link2 {
+	background-color : transparent;
+	border-width : 1px;
+	border-color : #a0a0a0;
+	border-style : solid;
+	margin: 2px;
+	padding: 4px;
+}
+
+div.file_link2 div.file_comment2 {
+	color : #205020;
+}
+
+div.file_link2 div.upload_time2 {
+	color : #306030;
+}
+
+@media screen and (min-width: 800px) {
+
+	div.file_list {
+		display : flex;
+		flex-direction : row;
+		flex-wrap : wrap;
+		justify-content : flex-start;
+		align-items : stretch;
+		align-content : flex-start;
+	}
+
+	div.file_link2 {
+		text-align:center; 
+		flex-grow : 1;
+		flex-shrink : 1;
+		flex-basis : 200px;
+	}
+
+	div.file_link2 div.file_comment2 {
+		font-size : 9pt;
+	}
+
+	div.file_link2 div.upload_time2 {
+		font-size : 9pt;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	
+	div.file_list {
+		display: block;
+	}
+	
+	div.file_link2 {
+		text-align: left;
+	}
+	
+	
+	div.file_link2 div.file_name {
+	}
+	
+	div.file_link2 div.image {
+		min-width: 200px;
+		width: 30%;
+		float: left;
+	}
+	
+	div.file_link2 div.file_comment2 {
+	}
+	
+	div.file_link2 div.upload_time2 {
+	}
+	
+}
+
+
+
+div.pglist {
+	margin : 10px 0px;
+}
+
+div.pglist *.linkbox {
+	margin : 2px;
+	text-align : center;
+	width : 34px;
+	display : inline-block;
+	border-width : 1px;
+	border-color : #a0a0a0;
+	border-style : solid;
+}
+
+div.pglist a.linkbox {
+	text-decoration : none;
+}
+
+div.pglist a.linkbox:link {
+	color : #080808;
+}
+div.pglist a.linkbox:visited {
+	color : #080808;
+}
+div.pglist a.linkbox:active {
+	color : #080808;
+}
+
+div.pglist a.linkbox:hover {
+	background-color : #d0e0ff;
+}
+
+div.pglist div.linkbox {
+	background-color : #e0e0ff;
+}
+
+
+
+.cf:before, .cf:after {
+	content: "";
+	display: table;
+}
+
+.cf:after {
+	clear: both;
+}
+
+.cf {
+	*zoom: 1;
+}
+
