@@ -459,7 +459,7 @@ class GesoLoader {
 	// 戻り値:	なし
 	// ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ------
 	private function redirect_myself ( ) {
-		$url = 'http://' . $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"];
+		$url = '//' . $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"];
 		header("Location: {$url}");
 	}
 	// ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ------
